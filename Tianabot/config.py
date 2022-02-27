@@ -14,12 +14,12 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    API_ID = 18066520  # integer value, dont use ""
+    API_HASH = 156cea11b65e85a8e715f8df82e036cb
+    TOKEN = 5241247233:AAGDAVQ-9YGV04L-L_7Ls-U3bMNjK3Iq94Y  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1088846304  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Suryansh_Pandit1"
+    SUPPORT_CHAT = "DarkestMarket666"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001253661229
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -28,13 +28,15 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database module
+    SQLALCHEMY_DATABASE_URI = "postgres://ziocmrjk:0BQnYSUerrKOBorczwSjr6tpzOt6rM19@abul.db.elephantsql.com/ziocmrjk"  # needed for any database module
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "TK~1FOLpY275pHIkdWZs2bim7Bque17coFp83asa8aImvxDdeCzhTPPbXrBoJQRi
+
+"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
