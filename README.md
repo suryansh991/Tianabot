@@ -12,7 +12,7 @@
     
 # Tiana Bot
 #### Tiana is a Telegram group managment bot made using Telethon and Pyrogram which makes it modern and faster than most of the exisitng Telegram Chat Managers.
-<p align="center"><img src="https://telegra.ph/file/fae3dd2a2c6e491e4893e.jpg"></p>
+<p align="center"><img src="https://te.legra.ph/file/bd8c1e1c0376d818c13b5.jpg"></p>
 
 #### Tiana's features over other bots:
 - Modern
